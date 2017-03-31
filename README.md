@@ -20,6 +20,8 @@ When you have another monitor plugged in it turns brigness to 0 on your laptop s
 
 Not sure how usefull this is for other people by. I use this for my ikea hack standing desk.
 
+CREDITS: https://github.com/nriley/brightness
+
 LICENSE MIT
 
 AS IS NO WARRANTY
