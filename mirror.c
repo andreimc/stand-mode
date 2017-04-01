@@ -80,12 +80,12 @@ int main (int argc, const char * argv[]) {
     switch (action) {
         case on:
             printf("ON\n");
-            system("./brightness -d 0 -v 0.0");
+            system("brightness -d 0 -v 0.0");
             CGConfigureDisplayMirrorOfDisplay(configRef, CGMainDisplayID(), secondaryDspys[0]);
             break;
         case off:
             printf("OFF\n");
-            system("./brightness -d 1 -v 0.7");
+            system("brightness -d 1 -v 0.7");
             CGConfigureDisplayMirrorOfDisplay(configRef, secondaryDspys[0], kCGNullDirectDisplay);
             break;
         case query:
